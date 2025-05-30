@@ -346,5 +346,9 @@ Key configuration through environment variables:
 4. Push to branch: `git push origin feature/your-feature`
 5. Submit a Pull Request
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
 
 **Project Status**: ✅ Production Ready | 🔄 Active Development | 📊 Fully Monitored
