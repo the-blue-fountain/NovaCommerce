@@ -12,7 +12,7 @@ Spring Boot Microservices Tutorial : https://programmingtechie.com/articles
 
 - The docker compose file creates the database using the script mysql/init.sql, whose location is given in the `docker-compose.yml` file.
 
-## Spring Cloud OpenFeign
+## Spring Cloud OpenFeign(not used really)
 
 - We are using it to establish synchronous communication.
 - Just below the `@SpringBootApplication` annotation, we have the `@EnableFeignClients` annotation. This annotation will auto-configure the necessary classes to use OpenFeign in our project(like order-service). 
