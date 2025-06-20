@@ -19,7 +19,7 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-        return httpSecurity.authorizeHttpRequezsts(authorize -> authorize
+        return httpSecurity.authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(freeResourceUrls)
                         .permitAll()
                         .anyRequest().authenticated())
